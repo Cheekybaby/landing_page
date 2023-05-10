@@ -1,0 +1,149 @@
+html {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+/* Navigation bar */
+#navigation-bar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    color: red;
+}
+.links, .logo {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 16px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+/* About */
+#about {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background-color: lightblue;
+}
+
+.rubbish-arena, .image {
+    gap: 16px;
+}
+
+.rubbish-arena {
+    text-align: center;
+    max-width: 65%;
+    display: flex;
+    flex: auto;
+    padding: 5%;
+}
+
+.image {
+    height: auto;
+    display: flex;
+    flex: auto;
+    padding: 2%;
+    object-fit: fill;
+    align-items: right;
+}
+
+.crew-heading {
+    justify-content: center;
+    display: flex;
+    background-color: lightblue;
+    font-size: 28px;
+}
+
+/* Crew memebers */
+#crew-members {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    background-color: lightblue;
+    padding: 2%;
+    /* text-align: center;
+    flex-direction: row; */
+}
+
+.member > img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    display: flex;
+    flex:auto;
+}
+
+/* Quote */
+#quote  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 7em 13em;
+}
+
+.the-quote {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.the-quoter {
+    font-size: 20px;
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+ /* contact us  */
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    width: 100%;
+} 
+
+.container button {
+    border: 2px solid #FFF;
+}
+
+strong{
+    font-size: 24px;
+    color: #FFF;
+}
+
+/* footer */
+footer {
+    background-color: #1f2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
